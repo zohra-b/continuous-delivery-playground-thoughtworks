@@ -13,7 +13,7 @@ defaults:
     working-directory: modern-web-app
 
 env:
-  NODE_VERSION: "14.17"
+  NODE_VERSION: "20.11.0"
 
 jobs:
   test:
