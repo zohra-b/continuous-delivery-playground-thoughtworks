@@ -1,13 +1,6 @@
 name: CI/CD Pipeline
 
 on: push
-jobs:
-  hello-world:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Hello World step
-        run: echo "Hello World!"
-
 defaults:
   run:
     working-directory: modern-web-app
